@@ -25,10 +25,15 @@ div.desc {
 </head>
 <body>
   <?php
+  $folder_path = "https://baby001iscoming.blob.core.windows.net/mamasboy/"; //image folder path
+
+$folder = opendir($folder_path); 
+
   $link = "https://baby001iscoming.blob.core.windows.net/mamasboy/PHOTOS";
   $type = ".jpg";
   for ($i = 1; $i <= 53; $i++) {
  echo  "<div class= gallery><a target=.&quot._blank.&quot. href=$link$i$type><img src=$link$i$type alt=$i width=600 height= 400 ></a></div>";
+    
     } 
   ?>
 </body>
