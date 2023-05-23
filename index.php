@@ -27,8 +27,8 @@ div.desc {
   <?php 
   for ($i = 1; $i <= 53; $i++) {
     <div class="gallery">
-  <a target="_blank" href="https://baby001iscoming.blob.core.windows.net/mamasboy/" $i ".jpg">
-    <img src="https://baby001iscoming.blob.core.windows.net/mamasboy/" $i ".jpg" width="600" height="400">
+  <a target="_blank" href="https://baby001iscoming.blob.core.windows.net/mamasboy/PHOTOS$i.jpg">
+    <img src="https://baby001iscoming.blob.core.windows.net/mamasboy/PHOTOS$i.jpg.jpg" width="600" height="400">
   </a>
   <div class="desc">$i</div>
   ?>
