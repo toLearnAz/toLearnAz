@@ -28,7 +28,9 @@ div.desc {
   $link = "https://baby001iscoming.blob.core.windows.net/mamasboy/PHOTOS";
   $type = ".jpg";
   for ($i = 1; $i <= 53; $i++) {
- echo  "<div class="gallery"><a target="_blank" href=$link.$i.$type><img src=$link.$i.$type alt=$i width="600" height="400"></a></div>";
+ echo  "<div class="gallery">";
+ echo  "<a target="_blank" href=$link.$i.$type><img src=$link.$i.$type alt=$i width="600" height="400"></a>";
+ echo  "</div>";
     } 
   ?>
 </body>
