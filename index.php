@@ -26,9 +26,9 @@ div.desc {
 <body>
   <?php
   $folder_path = "https://baby001iscoming.blob.core.windows.net/mamasboy/"; //image folder path
-  echo $folder_path;
+//  echo $folder_path;
 $folder = opendir($folder_path); 
-
+echo $folder;
   $link = "https://baby001iscoming.blob.core.windows.net/mamasboy/PHOTOS";
   $type = ".jpg";
   for ($i = 1; $i <= 53; $i++) {
