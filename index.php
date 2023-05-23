@@ -24,9 +24,11 @@ div.desc {
 </style>
 </head>
 <body>
-  <?php 
+  <?php
+  $link = "https://baby001iscoming.blob.core.windows.net/mamasboy/PHOTOS";
+  $type = ".jpg";
   for ($i = 1; $i <= 53; $i++) {
-  echo $i;
+  echo $link.$i.$type;
     } 
   ?>
 </body>
