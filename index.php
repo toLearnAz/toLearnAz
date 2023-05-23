@@ -29,8 +29,8 @@ div.desc {
   $type = ".jpg";
   for ($i = 1; $i <= 53; $i++) {
   <div class="gallery">
-  <a target="_blank" href=$link.$i.$type>
-    <img src=$link.$i.$type alt=$i width="600" height="400">
+  <a target="_blank" href="$link.$i.$type">
+    <img src="$link.$i.$type" alt=$i width="600" height="400">
   </a>
   <div class="desc">$i</div>
 </div>
