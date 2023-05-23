@@ -28,7 +28,7 @@ div.desc {
   $string1= "https://baby001iscoming.blob.core.windows.net/mamasboy/PHOTOS"
   $string2= ".jpg"  
   for ($i = 1; $i <= 53; $i++) {
-  echo $string1+$i+$string2
+  echo $string1.$i.$string2;
     } 
   ?>
 </body>
