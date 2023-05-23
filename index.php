@@ -1,4 +1,9 @@
-
+<html>
+<head>
+<title>Hello World</title>
+</head>
+<body>
+   
 <?php
 class IndexController {
    /* default action */
@@ -9,12 +14,6 @@ class IndexController {
    }
 }
 ?>
-
-<html>
-<head>
-<title>Hello World</title>
-</head>
-<body>
 <?php echo $word;?>
 </body>
 </html>
