@@ -1,5 +1,13 @@
+
 <?php
-  $this->getView()->word = "hello world";
+class IndexController {
+   /* default action */
+   public function indexAction() {
+       $this->_view->word = "hello world";
+       //or
+       // $this->getView()->word = "hello world";
+   }
+}
 ?>
 
 <html>
