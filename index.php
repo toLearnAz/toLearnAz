@@ -26,7 +26,7 @@ div.desc {
 <body>
   <?php
   $folder_path = "https://baby001iscoming.blob.core.windows.net/mamasboy/"; //image folder path
-
+  echo $folder_path;
 $folder = opendir($folder_path); 
 
   $link = "https://baby001iscoming.blob.core.windows.net/mamasboy/PHOTOS";
