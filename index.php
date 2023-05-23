@@ -77,7 +77,7 @@ div.desc {
   <a target="_blank" href="https://baby001iscoming.blob.core.windows.net/mamasboy/PHOTOS9.jpg">
     <img src="https://baby001iscoming.blob.core.windows.net/mamasboy/PHOTOS9.jpg" alt="Cinque Terre" width="600" height="400">
   </a>
-  <div class="desc">PHOTOS9</div>
+  <div class="desc">AYTH MAS EXEI DOSEI E? </div>
 </div>
   <div class="gallery">
   <a target="_blank" href="https://baby001iscoming.blob.core.windows.net/mamasboy/PHOTOS10.jpg">
