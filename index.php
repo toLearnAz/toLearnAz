@@ -1,6 +1,10 @@
 <html>
 <head>
 <style>
+  
+  img {
+    pointer-events: none;
+}
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
