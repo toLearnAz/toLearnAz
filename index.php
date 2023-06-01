@@ -8,6 +8,12 @@ div.gallery {
   float: left;
   width: 180px;
 }
+  div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
 
 div.gallery:hover {
   border: 1px solid #777;
